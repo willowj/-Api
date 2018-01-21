@@ -18,9 +18,10 @@
 
 3. 返回数据格式：
 
-   > ~~~json
+   >  ~~~js
+   >
    > {
-   >     "code": 0,
+   >     "code": 0,      // 0：成功，-1：失败。
    >     "data": {
    >         "country": "\u4e2d\u56fd",  // 国家
    >         "country_id": "CN",
@@ -43,9 +44,13 @@
    >         "ip": "113.66.41.17"
    >     }
    > }
-   > ~~~
+   >  ~~~
 
-   其中code的值的含义为，0：成功，1：失败。
+
+
+
+
+   ​
 
    >  from : [ip.taobao](http://ip.taobao.com/instructions.php)
 
